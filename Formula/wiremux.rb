@@ -1,8 +1,7 @@
 class Wiremux < Formula
   desc "Maps Chat Completions, Messages, Responses, Gemini, and Converse through one IR"
   homepage "https://github.com/wiremuxhq/wiremux"
-  version "0.9.3"
-  license "MIT OR Apache-2.0"
+  license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
