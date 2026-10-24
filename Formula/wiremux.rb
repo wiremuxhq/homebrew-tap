@@ -5,23 +5,23 @@ class Wiremux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.8/wiremux-aarch64-apple-darwin.tar.gz"
-      sha256 "00256f3c8b2b4faf0716c2b2249d2de2110cf3c436107910cf43f5e08d35ca33"
+      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.9/wiremux-aarch64-apple-darwin.tar.gz"
+      sha256 "e16ebbdc974eb706bb2bb3fcd354be7ae50e65f8f36076517c4551c826d56dbf"
     end
     on_intel do
-      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.8/wiremux-x86_64-apple-darwin.tar.gz"
-      sha256 "c4b88bb4ea6b273b019f35de6e2bfed89b88a4930e0fffd9ee3a82c8ee476572"
+      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.9/wiremux-x86_64-apple-darwin.tar.gz"
+      sha256 "ba05d23d66b1359f366cfafc9cb6c2ca7a9dc21901087e15e9b027398856ea19"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.8/wiremux-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c70a0bd64622a52717411e52123c57841b1664bda8234bedfd91da11cfc249fe"
+      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.9/wiremux-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "46cfab7437d5c4095455f77524270970ccbe00fc7ccde5b24221880c4f209342"
     end
     on_arm do
-      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.8/wiremux-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7140244e1fcf8cf74d0f8c21bcad1c2afa7c4f3918a72c7850e696c0378cff21"
+      url "https://github.com/wiremuxhq/wiremux/releases/download/v0.11.9/wiremux-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "430ce7baf6156573866920c534d21f3fc9b71567b8df4a08c58545d4fe6f3efe"
     end
   end
 
